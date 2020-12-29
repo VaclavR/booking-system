@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Booking System</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <span class="nav-item active"></span>
+        <span class="nav-item"></span>
+        <span class="nav-item"></span>
+        <span class="nav-item"></span>
+        <span class="nav-item"></span>
+        <span class="nav-item"></span>
+        <span class="nav-item"></span>
+    </nav>
+    <section class="movie-list">
+
+    </section>
+    <div class="templates hidden">
+        <div class="movie-card">
+            <div class="img-wrap">
+                <div class="img"></div>
+            </div>
+            <div class="text-wrap">
+                <h1></h1>
+                <p></p>
+                <div class="times-box">
+                    <span>Select time:</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-body">
+                <section class="seats-selection">
+                    <div class="movie-info">Movie: <span class="move-info-value"></span></div>
+                    <div class="movie-info">Time: <span class="move-info-value"></span></div>
+                    <div class="movie-info">Total Seats: <span class="move-info-value">90</span></div>
+                    <div class="movie-info">Available Seats: <span class="move-info-value"></span></div>
+                    <div class="movie-info">Selected Seats: <span class="move-info-value">none</span></div>
+                    <table class="seats-table">
+                        <tr><td class="seat">1</td><td class="seat">2</td><td class="seat">3</td><td class="seat">4</td><td class="seat">5</td><td class="seat">6</td><td class="seat">7</td><td class="seat">8</td><td class="seat">9</td><td class="seat">10</td></tr>
+                        <tr><td class="seat">11</td><td class="seat">12</td><td class="seat">13</td><td class="seat">14</td><td class="seat">15</td><td class="seat">16</td><td class="seat">17</td><td class="seat">18</td><td class="seat">19</td><td class="seat">20</td></tr>
+                        <tr><td class="seat">21</td><td class="seat">22</td><td class="seat">23</td><td class="seat">24</td><td class="seat">25</td><td class="seat">26</td><td class="seat">27</td><td class="seat">28</td><td class="seat">29</td><td class="seat">30</td></tr>
+                        <tr><td class="seat">31</td><td class="seat">32</td><td class="seat">33</td><td class="seat">34</td><td class="seat">35</td><td class="seat">36</td><td class="seat">37</td><td class="seat">38</td><td class="seat">39</td><td class="seat">40</td></tr>
+                        <tr><td class="seat">41</td><td class="seat">42</td><td class="seat">43</td><td class="seat">44</td><td class="seat">45</td><td class="seat">46</td><td class="seat">47</td><td class="seat">48</td><td class="seat">49</td><td class="seat">50</td></tr>
+                        <tr><td class="seat">51</td><td class="seat">52</td><td class="seat">53</td><td class="seat">54</td><td class="seat">55</td><td class="seat">56</td><td class="seat">57</td><td class="seat">58</td><td class="seat">59</td><td class="seat">60</td></tr>
+                        <tr><td class="seat">61</td><td class="seat">62</td><td class="seat">63</td><td class="seat">64</td><td class="seat">65</td><td class="seat">66</td><td class="seat">67</td><td class="seat">68</td><td class="seat">69</td><td class="seat">70</td></tr>
+                        <tr><td class="seat">71</td><td class="seat">72</td><td class="seat">73</td><td class="seat">74</td><td class="seat">75</td><td class="seat">76</td><td class="seat">77</td><td class="seat">78</td><td class="seat">79</td><td class="seat">80</td></tr>
+                        <tr><td class="seat">81</td><td class="seat">82</td><td class="seat">83</td><td class="seat">84</td><td class="seat">85</td><td class="seat">86</td><td class="seat">87</td><td class="seat">88</td><td class="seat">89</td><td class="seat">90</td></tr>
+                    </table>
+                </section>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-buttons">
+                    <button class="button success">Confirm</button>
+                    <button class="button close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
